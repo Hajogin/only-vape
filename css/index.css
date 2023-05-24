@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    position: sticky;
+}
+.main-bg {
+    background-image: url("/only-vape/img/bg_main.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+.main-bg:first-child {
+    display: flex;
+    justify-content: space-around;
+    padding: 300px 0;
+}
+footer {
+    background-color: black;
+}
