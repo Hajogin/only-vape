@@ -102,7 +102,7 @@
     <h2>Начните работать с профессионалами своего дела уже сейчас</h2>
   </div>
   <article class="feedback">
-    <button><a href="#openModal">Начать</a></button>
+    <a href="#openModal"><button>Начать</button></a>
     <div id="openModal" class="modalDialog">
       <div>
         <a href="#close" title="Закрыть" class="close">X</a>
@@ -145,25 +145,21 @@
   </div>
   <div class="footer-nav">
     <h3>Следите за нами в социальных сетях</h3>
-    <a href="#">Link1</a>
-    <a href="#">Link2</a>
+    <div class="social">
+      <div>
+        <a href="https://t.me/onlyvape_opt">
+          <img src="img/icons/telegram.png">
+        </a>
+      </div>
+      <div>
+        <a href="https://vk.com/onlyvape_ekb">
+          <img src="img/icons/vkontakte.png">
+        </a>
+      </div>
+    </div>
   </div>
 </footer>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    var scrollbar = document.body.clientWidth - window.innerWidth + 'px';
-    console.log(scrollbar);
-    document.querySelector('[href="#openModal"]').addEventListener('click', function () {
-      document.body.style.overflow = 'hidden';
-      document.querySelector('#openModal').style.marginLeft = scrollbar;
-    });
-    document.querySelector('[href="#close"]').addEventListener('click', function () {
-      document.body.style.overflow = 'visible';
-      document.querySelector('#openModal').style.marginLeft = '0px';
-    });
-  });
-</script>
 
 </body>
 </html>

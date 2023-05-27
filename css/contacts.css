@@ -128,7 +128,8 @@ h2 {
     box-shadow: 1px 1px 3px #000;
 }
 
-.close:hover { background: #222; }
+.close:hover { background: #222;
+}
 
 input[type] {
     width: 230px;
@@ -140,6 +141,23 @@ button {
     border-radius: 5px;
 }
 
+
+
+
 footer {
     background-color: black;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
 }
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
