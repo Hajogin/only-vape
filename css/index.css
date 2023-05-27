@@ -16,18 +16,124 @@ nav {
     gap: 50px;
     align-items: center;
     position: sticky;
+    font-family: Arial;
 }
 .main-bg {
-    background-image: url("/only-vape/img/bg_main.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 200px 0;
+    background-image: url("/img/bg.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
+    color: white;
 }
 .main-bg:first-child {
     display: flex;
-    justify-content: space-around;
-    padding: 300px 0;
+    font-family: Arial;
 }
+.main-bg:nth-child(2) {
+    display: flex;
+}
+h1 {
+    font-size: 5em;
+}
+.main-bg:nth-child(3) {
+    display: flex;
+}
+.main-bg button {
+    border-radius: 50px;
+    padding: 15px;
+    box-shadow: 0 0 20px white;
+    text-transform: uppercase;
+    background-color: #00a9e0;
+    color: white;
+}
+.katalog {
+    background-color: #00a9e0;
+    margin-top: -20px;
+    padding: 30px;
+}
+
+.katalog-nav {
+
+}
+.our-plus {
+    display: flex;
+    gap: 50px;
+    background-color: black;
+    color: white;
+}
+.clients {
+    display: flex;
+}
+.slide {
+    width: 200px;
+    height: 100px;
+}
+.slide-1 {
+    background-image: url("/img/logo/best_tobacco.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.slide-2 {
+    background-image: url("/img/logo/brusnika.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.slide-3 {
+    background-image: url("/img/logo/cwb_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.slide-4 {
+    background-image: url("/img/logo/el_sigi.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.slide-5 {
+    background-image: url("/img/logo/hb_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.slide-6 {
+    background-image: url("/img/logo/hm_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.slide-7 {
+    background-image: url("/img/logo/joyeshop.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.slide-8 {
+    background-image: url("/img/logo/piv24noj.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.slide-9 {
+    background-image: url("/img/logo/pivko.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.slide-10 {
+    background-image: url("/img/logo/tabac_plus.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.slide-11 {
+    background-image: url("/img/logo/teplo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.slide-12 {
+    background-image: url("/img/logo/zenmod.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 footer {
     background-color: black;
 }
