@@ -7,38 +7,39 @@ header {
     display: flex;
     justify-content: space-around;
 }
+h1 {
+    font-size: 7em;
+    font-family: Arial;
+}
+h2, h3 {
+    text-align: center;
+    font-family: Arial;
+}
 nav a {
     color: white;
     text-decoration: none;
 }
 nav {
+    font-family: Arial;
     display: flex;
+    flex-wrap: wrap;
     gap: 50px;
     align-items: center;
     position: sticky;
-    font-family: Arial;
+
 }
 .main-bg {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
+    justify-content: space-around;
+    gap: 20px;
     padding: 200px 0;
     background-image: url("/img/bg.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
     color: white;
-}
-.main-bg:first-child {
-    display: flex;
-    font-family: Arial;
-}
-.main-bg:nth-child(2) {
-    display: flex;
-}
-h1 {
-    font-size: 5em;
 }
 .main-bg:nth-child(3) {
     display: flex;
@@ -48,91 +49,51 @@ h1 {
     padding: 15px;
     box-shadow: 0 0 20px white;
     text-transform: uppercase;
-    background-color: #00a9e0;
-    color: white;
+    background-color: white;
 }
 .katalog {
-    background-color: #00a9e0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
     margin-top: -20px;
     padding: 30px;
+    font-family: Arial;
 }
-
 .katalog-nav {
-
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-around;
 }
+
 .our-plus {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
     gap: 50px;
     background-color: black;
     color: white;
+    font-family: Arial;
+    padding: 20px;
 }
-.clients {
+
+.our-plus-items {
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
 }
-.slide {
-    width: 200px;
-    height: 100px;
-}
-.slide-1 {
-    background-image: url("/img/logo/best_tobacco.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.slide-2 {
-    background-image: url("/img/logo/brusnika.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.slide-3 {
-    background-image: url("/img/logo/cwb_logo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.slide-4 {
-    background-image: url("/img/logo/el_sigi.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.slide-5 {
-    background-image: url("/img/logo/hb_logo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.slide-6 {
-    background-image: url("/img/logo/hm_logo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.slide-7 {
-    background-image: url("/img/logo/joyeshop.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.slide-8 {
-    background-image: url("/img/logo/piv24noj.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.slide-9 {
-    background-image: url("/img/logo/pivko.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.slide-10 {
-    background-image: url("/img/logo/tabac_plus.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.slide-11 {
-    background-image: url("/img/logo/teplo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.slide-12 {
-    background-image: url("/img/logo/zenmod.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
+
+
+
+
+
+
+
+
+
 
 footer {
     background-color: black;
