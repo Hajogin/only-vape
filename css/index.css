@@ -7,10 +7,12 @@ body {
 header {
     background-color: black;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
+
 h1 {
-    font-size: 7em;
+    font-size: 9em;
     font-family: Arial;
 }
 h2, h3 {
@@ -27,11 +29,10 @@ nav {
     flex-wrap: wrap;
     gap: 50px;
     align-items: center;
-    position: sticky;
-
 }
 .main-bg {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -68,7 +69,9 @@ nav {
     gap: 30px;
     justify-content: space-around;
 }
-
+.katalog h2 {
+    font-size: 3em;
+}
 .our-plus {
     display: flex;
     flex-direction: column;
@@ -78,7 +81,14 @@ nav {
     background-color: black;
     color: white;
     font-family: Arial;
+    font-size: 1.5em;
     padding: 20px;
+}
+.our-plus h2 {
+    font-size: 3em;
+}
+.our-plus h3 {
+    font-size: 2em;
 }
 
 .our-plus-items {

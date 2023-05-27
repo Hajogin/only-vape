@@ -7,6 +7,7 @@ body {
 header {
     background-color: black;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 nav a {
@@ -37,6 +38,7 @@ h2 {
 
 .team-item {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     align-items: center;
     padding: 30px;
@@ -48,12 +50,26 @@ h2 {
 }
 
 .map {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 100px;
-    flex-wrap: wrap;
+    position: relative;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*gap: 100px;*/
+    /*flex-wrap: wrap;*/
+    /*font-family: Arial;*/
+}
+.map-contact {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #999999;
+    opacity: .9;
     font-family: Arial;
+    padding: 20px;
+}
+h3 {
+    margin-top: 0;
+    text-align: center;
 }
  .map a {
     text-decoration: none;
@@ -147,6 +163,7 @@ button {
 footer {
     background-color: black;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 50px;
 }
