@@ -85,7 +85,7 @@ nav {
     padding: 20px;
 }
 .our-plus h2 {
-    font-size: 3em;
+    font-size: 2em;
 }
 .our-plus h3 {
     font-size: 2em;
@@ -107,6 +107,13 @@ footer {
 .footer-nav {
     display: flex;
     flex-direction: column;
+    font-family: Arial;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.footer-nav a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
 .social {
     display: flex;
@@ -124,6 +131,125 @@ a {
     text-decoration: none;
 }
 
+
+.modalDialog1 {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    display: none;
+    pointer-events: none;
+}
+.modalDialog1:target {
+    display: block;
+    pointer-events: auto;
+}
+
+
+
+.modalDialog1 > div {
+    width: 550px;
+    position: relative;
+    margin: 1% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #222;
+    background: -moz-linear-gradient(#999, #222);
+    background: -webkit-linear-gradient(#999, #222);
+    background: -o-linear-gradient(#999, #222);
+}
+.close1 {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+
+.close1:hover { background: #222;
+}
+
+
+
+.our-team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.team-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    padding: 30px;
+}
+.team-item a {
+    font-family: Arial;
+    text-decoration: none;
+    color: #0f89ff;
+}
+
+.map {
+    position: relative;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*gap: 100px;*/
+    /*flex-wrap: wrap;*/
+    /*font-family: Arial;*/
+}
+.map-contact {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #999999;
+    opacity: .9;
+    font-family: Arial;
+    padding: 20px;
+}
+h3 {
+    margin-top: 0;
+    text-align: center;
+}
+.map a {
+    text-decoration: none;
+    color: #0f89ff;
+}
+
+.feedback-title {
+    padding: 180px 0 0 0 ;
+}
+.feedback-title h2 {
+
+}
+
+.feedback {
+    padding: 100px;
+    text-align: center;
+    font-family: Arial;
+}
+.feedback button {
+    padding: 10px 30px;
+}
 
 .modalDialog {
     position: fixed;
@@ -148,9 +274,9 @@ a {
 
 
 .modalDialog > div {
-    width: 550px;
+    width: 400px;
     position: relative;
-    margin: 1% auto;
+    margin: 10% auto;
     padding: 5px 20px 13px 20px;
     border-radius: 10px;
     background: #222;
@@ -180,3 +306,23 @@ a {
 .close:hover { background: #222;
 }
 
+input[type] {
+    width: 230px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.feedback button {
+    width: 245px;
+    border-radius: 5px;
+}
+.our-clients {
+    padding: 40px;
+}
+
+.our-clients h2 {
+    font-size: 3em;
+}
+.our-clients p {
+    font-size: 1.5em;
+    text-align: center;
+}
