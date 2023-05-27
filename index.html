@@ -201,15 +201,15 @@
                 <a href="#close" title="Закрыть" class="close">X</a>
                 <h2>Заявка</h2>
                 <p>Хочешь начать работать с профессионалами, оставь свои контакты и мы свяжемся с тобой в течение 15 минут</p>
-                <form>
+                <form name="callMe" method="post" action="form.php">
                     <p>
-                        <input type="text" placeholder="Введите ваше ФИО">
+                        <input type="text" placeholder="Введите ваше ФИО" name="fio" required>
                     </p>
                     <p>
-                        <input type="tel" placeholder=" +7 (999) 999 99 99">
+                        <input type="tel" placeholder=" +7 (999) 999 99 99" name="phone" required>
                     </p>
                     <p>
-                        <button formaction="form.php">Заказать</button>
+                        <button>Заказать</button>
                     </p>
                 </form>
             </div>
